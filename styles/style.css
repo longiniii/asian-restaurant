@@ -692,6 +692,11 @@ footer a {
     color: white;
     filter: invert(100%);
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 1401px) and (max-width: 99999px) {
     .footerdiv1 {
         flex: 14;

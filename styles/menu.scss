@@ -409,6 +409,10 @@ footer {
 		filter: invert(100%);
 	}
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
 @media screen and (min-width: 1401px) and (max-width: 99999px) {
 	.s1d1d2d2dd1 {
         &:before {

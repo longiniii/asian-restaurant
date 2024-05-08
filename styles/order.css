@@ -398,7 +398,6 @@ section .div5 .div51 .div512 .div5122 .div51221 .div512211 .div5122112 p {
 }
 section .div5 .div51 .div512 .div5122 .div51221 .img555 {
   flex: 3;
-  background-color: yellow;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -558,6 +557,11 @@ footer a {
   height: 8rem;
   color: white;
   filter: invert(100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1401px) and (max-width: 99999px) {
